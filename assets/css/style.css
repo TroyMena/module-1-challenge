@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* Below is for the background color of the body of the webpage */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Below is for the header of the webpage, which displays the Horiseon text and the three clickable options. */
 
 header {
     padding: 20px;
@@ -41,14 +45,12 @@ header section ul li {
     margin-left: 25px;
 }
 
-a {
+header section ul li a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Below is for the section with the image of the marketing meeting, which takes up the width of the screen. */
 
 .hero {
     height: 800px;
@@ -59,21 +61,8 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Below is for the column of benefits on the right side of the page, below the image of the marketing meeting. */
 
 .benefits {
     margin-right: 20px;
@@ -102,6 +91,14 @@ p {
     max-width: 150px;
 }
 
+/* Below is for the section of content on the left side of the page, below the image of the marketing meeting. */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .content-card {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +116,24 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+.content-card p {
+    font-size: 16px;
+}
+
+/* Below is for the images of the content to be displayed on the right or left side of their respective containers. */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Below is for the footer of the page. */
 
 .footer {
     padding: 30px;
